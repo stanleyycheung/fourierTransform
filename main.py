@@ -3,7 +3,7 @@ import scipy.io.wavfile as wavfile
 from scipy import fftpack
 import matplotlib.pyplot as plt
 
-rate, data = wavfile.read("Sounds/6thE.wav")
+rate, data = wavfile.read("single notes open/6thE.wav")
 plt.rcParams['figure.figsize'] = 16, 8
 
 
